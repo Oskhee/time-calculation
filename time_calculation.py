@@ -42,7 +42,7 @@ hour, minutes, seconds = calculate_time(sum)
 print("Time spend running: {}h:{}m:{}s\n".format(
     int(hour), int(minutes), int(seconds)))
 
-# Calculate the minimum and maximum speed
+# Calculate the minimum and maximum estimated speed
 min_hour, min_minutes, min_seconds = calculate_time(starting_time)
 if min_seconds > 9:
     min_speed = "{}:{}".format(int(min_minutes), int(min_seconds))
